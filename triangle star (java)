@@ -1,0 +1,28 @@
+ /* PATTERN QUESTION  using for loop
+   c=4
+  +
+  + +  
+  + + +  
+  + + + + r=4
+ 
+  */
+//   rows= outer loop 
+//   coloumns= inner loops
+// pattern  we hae to recogonized 
+//  c==1 ,r==1 , i==m ,i==n
+  
+// pattern is that 
+  import java.util.*;
+  public class Main{
+      public static void main( String args[]){
+         int n=4; // n=row
+         int m=5; // j= coloumn
+           for ( int i=1; i<= n;i++){
+              
+               for(int j=1;j<=i;j++){
+                   System.out.print("+");
+               }
+               System.out.println("");
+           }
+        }
+    }
